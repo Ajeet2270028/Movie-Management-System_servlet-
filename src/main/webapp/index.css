@@ -1,0 +1,54 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+section{
+	background-image:url("./image/pic6.webp");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+h2{
+	font-size: 50px;
+	color: rgb(0, 255, 255);
+}
+.head{
+	height:250px;
+	width:600px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: start;
+	margin-bottom: -70px;
+	
+	
+}
+.head button {
+	font-size: 20px;
+	padding: 20px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	background-color: blue;
+	border-radius: 20px;
+	border: none;
+	
+}
+.head button:hover{
+ background-color: maroon;
+ 
+}
+.head button a{
+	color: white;
+	text-decoration: none;
+}
+.head button a:hover {
+	color: orange;
+}
